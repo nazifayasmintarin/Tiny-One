@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald&family=PT+Sans:wght@700&display=swap');
+
+body{
+    /* font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif; */
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+h1, h2, h3, h4{
+    font-weight: 700;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* Header Area */
+.tiny-header{
+    background-color: #fcdb00;
+    padding: 60px 0;
+}
+.tiny-header-top{}
+.tiny-menu-icon{
+    color: #010101;
+    font-size: 20px;
+}
+.tiny-social-icons{
+}
+.tiny-social-icons ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.tiny-social-icons ul li{}
+.tiny-social-icons ul li a{
+    color: #010101;
+    font-size: 20px;
+    padding: 0 11px;
+}
+.tiny-header-bottom{}
+.tiny-slide{
+    text-align: center;
+    padding: 170px 0 120px;
+}
+.tiny-slide h2{
+    color: #010101;
+    font-size: 48px;
+}
+.tiny-slide p{
+    color: #313841;
+    font-size: 20px;
+}
+.tiny-slide ul{
+    display: flex;
+    justify-content: center;
+}
+.tiny-slide ul li{
+    border: 2px solid #010101;
+    margin: 0 15px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tiny-slide ul li i{
+    color: #010101;
+    font-size: 35px;
+}
+.tiny-slide a{
+    text-transform: uppercase;
+    color: #2d2d2d;
+    border: 2px solid #000;
+    padding: 10px 25px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: .5s;
+    border-radius: 5px;
+}
+.tiny-slide a:hover{
+    background-color: #010101;
+    color: #fff;
+}
+.tiny-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+.tiny-menu ul{
+    display: flex;
+    justify-content: center;
+}
+.tiny-menu ul li a{
+    color: #010101;
+    font-size: 15px;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+.tiny-follow{
+    display: none;
+}
+
+/* Feature Section */
+.tiny-feature{
+    background-color: #ffffff;
+    padding: 115px 0;
+}
+.tiny-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.tiny-title h3{
+    font-size: 32px;
+    color: #010101;
+}
+.tiny-title p{
+    font-size: 20px;
+    color: #313841;
+}
+.tiny-feature-content{
+    padding: 45px 0;
+}
+.tiny-feature-content h5{
+    font-size: 22px;
+    color: #010101;
+   
+}
+.tiny-feature-content p{
+    color: #898989;
+    font-size: 16px;
+}
+.tiny-mobile{
+    position: relative;
+}
+.tiny-mobile img{
+    width: 100%;
+}
+.tiny-feature-logo{
+    width: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+/* footer section */
+.tiny-footer{
+    background: #010101;
+    padding: 115px 0;
+}
+.tiny-footer .tiny-title h3{
+    color: #fcdb00;
+}
+
+.tiny-subscription{}
+.tiny-subscription form{
+    display: flex;
+    justify-content: space-between;
+}
+.tiny-mail{
+    width: 90%;
+}
+.tiny-mail-btn{}
+.tiny-mail-btn input{
+    background: #fcdb00;
+    color: #010101;
+    font-size: 700;
+}
+.tiny-mail-btn input:hover{
+    background: #d8be08 !important;
+}
+.tiny-footer-text{
+    margin-top: 120px;
+}
+.tiny-footer-text ul li,
+.tiny-footer-text ul li a{
+    color: #fff;
+}
